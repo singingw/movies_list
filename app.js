@@ -2,7 +2,7 @@
 const express = require('express')
 //express 內含 HTTP 連線的模組，預設 const hostname = 'localhost'
 const app = express()
-const port = 3000//連接埠號 (port number) 
+const port = 8080//連接埠號 (port number) 
 
 //載入 express-handlebars 
 const exphbs = require('express-handlebars')
