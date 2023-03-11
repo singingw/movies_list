@@ -1,0 +1,31 @@
+<!--DOCTYPE 告訴瀏覽器， HTML 是用哪一種類型的文本， <!DOCTYPE html> 表示 HTML5。-->
+<!DOCTYPE html>
+<!--是一個語言代碼，表示該網頁繁體中文作為主要語言-->
+<html lang="zh-TW">
+
+<head>
+  <!--宣告編碼的類型-->
+  <meta charset="UTF-8">
+  <!--讓畫面自動適應不同的裝置大小-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--BootstrapCDN-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <title>text</title>
+</head>
+
+<body>
+  <!-- navigation -->
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Movie List</a>
+    </div>
+  </nav>
+  
+  <!--把局部樣板的內容都放在這裡顯示-->
+  {{{ body }}}
+
+  <!--BootstrapCDN-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
